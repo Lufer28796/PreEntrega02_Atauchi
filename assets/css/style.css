@@ -1,0 +1,156 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+
+    font-family: 'Muli', sans-serif;
+    }
+
+    a{text-decoration: none;
+        color: white;}
+
+.anuncio {
+    background-color: #161616;
+    height: 200px;
+    width: 710;
+    font-size: 60px;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+        }
+
+
+
+nav {
+    font-size: 40px;
+    background-color: #C81111;
+    height: 100px;
+    width: 710;
+    position: sticky;
+    top: 0;
+    z-index: 5;
+    }
+
+.div_navegacion{    
+        font-size: 40px;
+        background-color: white;
+        height: 100px;
+        width: 710;
+
+    
+    }
+
+.div_navegacion a{
+    color: black;
+}
+
+.estiloLista {
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+        }
+
+.estiloLista li {
+    list-style-type: none;
+    display: inline;
+    margin: 20px 20px 20px 20px; 
+
+                }
+.header__img {
+    width: 720;
+    height: 600px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+
+main {
+    width: 720;
+    background-color: #E5E5E5;
+    margin-left: 10px;
+
+}
+
+main p {
+    color: #161616;
+    font-size: 40px;
+    display: flex;
+    align-items: center;
+}
+
+.estiloLista_promociones{
+    border-radius: 20px;
+    height: 60px;
+    font-size: 45px;
+    padding: 5px;
+    background-color: #00795B;
+    color: white;
+}
+
+section {
+    margin: 10px 0px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+} 
+
+
+.item {
+    background-color: #00795B;
+    border-radius: 20px;
+    margin: 10px;
+    height: 300px;
+    width: 496px;
+
+}
+
+.item__img{
+    border-radius: 10px;
+    width: 100%;
+}
+
+section h4{
+    font-size: 20px;
+    color: white;
+}
+
+.container_input{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 10px;
+
+}
+
+.input{
+    border: none;
+    background-color: white;
+    color: #00795B;
+    font-size: 15px;
+    height: 25px;
+    border-radius: 10px;
+
+}
+
+.footer__name {
+    background-color: #c81111b0;
+    height: 160px;
+    padding: 20px 20px;
+    font-size: 30px;
+    color: #E5E5E5;
+}
+
+
+
+.footer__name2 {
+    height: 20px;
+    background-color: #C81111;
+    color: #E5E5E5;
+    height: 50px;
+    font-size: 30px;
+    padding: 10px 20px;
+}
